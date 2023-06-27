@@ -1,0 +1,76 @@
+project:
+  type: website
+  output-dir: docs  #folder for github purposes
+
+website:
+
+# Title
+  title: "name of the website"
+
+# Search
+  search: true
+
+# Reader Mode
+  reader-mode: false
+
+# Navigation
+  navbar:
+    left:
+      - href: index.qmd
+        text: Page 1
+      - href: index.qmd
+        text: Page 2
+      - href: index.qmd
+        text: Page 3
+      - href: index.qmd
+        text: Page 4
+      - href: about.qmd
+        text: About
+    right: 
+      - href: about.qmd
+        text: Find us on
+
+# logo  
+#    logo: "imgs/logo-seeds.jpg"
+#    logo-alt: "Alternative text
+
+# color
+    background: "#75a6d1"
+    foreground: "#FFFFFF"
+
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: tiktok
+        href: https://tiktok.com
+      - icon: facebook
+        href: https://facebook.com
+      - icon: youtube
+        href: https://youtube.com
+      - icon: instagram
+        href: https://instagram.com
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a Bug
+            url:  https://bugs.com
+
+# footer
+  page-footer: 
+    border: true
+    left: "Copyright 2021, " 
+    # right: 
+    #   - icon: github
+    #     href: https://github.com/
+    #   - icon: twitter 
+    #     href: https://twitter.com/ 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
